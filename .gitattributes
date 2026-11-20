@@ -1,0 +1,28 @@
+# Normalize text files to LF in the repository.
+* text=auto eol=lf
+
+# Unity YAML assets: merge with Unity's Smart Merge (configure unityyamlmerge locally if wanted).
+*.unity    text eol=lf merge=unityyamlmerge linguist-generated
+*.prefab   text eol=lf merge=unityyamlmerge linguist-generated
+*.asset    text eol=lf merge=unityyamlmerge linguist-generated
+*.mat      text eol=lf merge=unityyamlmerge linguist-generated
+*.anim     text eol=lf merge=unityyamlmerge linguist-generated
+*.controller text eol=lf merge=unityyamlmerge linguist-generated
+*.meta     text eol=lf
+
+*.cs       text eol=lf diff=csharp
+*.asmdef   text eol=lf
+*.json     text eol=lf
+*.md       text eol=lf
+
+# Binaries
+*.png  binary
+*.jpg  binary
+*.psd  binary
+*.ttf  binary
+*.otf  binary
+*.wav  binary
+*.mp3  binary
+*.fbx  binary
+*.unitypackage binary
+*.tgz  binary

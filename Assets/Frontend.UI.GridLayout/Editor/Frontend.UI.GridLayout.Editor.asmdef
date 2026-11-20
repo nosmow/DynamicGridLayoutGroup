@@ -1,0 +1,19 @@
+{
+    "name": "Frontend.UI.GridLayout.Editor",
+    "rootNamespace": "Frontend.UI.Editor",
+    "references": [
+        "Frontend.UI.GridLayout",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

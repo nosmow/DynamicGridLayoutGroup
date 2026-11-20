@@ -1,0 +1,28 @@
+{
+  "name": "com.frontend.ui-grid-layout",
+  "displayName": "Dynamic Grid Layout Group",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "Dynamic Grid Layout Group for uGUI: cells spanning several columns/rows, alignment for partially filled lines, adaptive column/row count with min/max, and Preserve/Stretch/FitContent cell sizing.",
+  "keywords": [
+    "ui",
+    "ugui",
+    "layout",
+    "grid",
+    "responsive"
+  ],
+  "author": {
+    "name": "nosmow"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "Scene with every feature: spans, partial line alignment, adaptive columns and Preserve/Stretch/FitContent.",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
