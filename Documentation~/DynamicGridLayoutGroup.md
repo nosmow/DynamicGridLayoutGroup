@@ -14,14 +14,14 @@ Drop-in replacement for uGUI's `GridLayoutGroup` with:
 **Git (UPM)**: *Package Manager → + → Install package from git URL…*, or in `Packages/manifest.json`:
 
 ```json
-"com.frontend.ui-grid-layout": "https://github.com/nosmow/DynamicGridLayoutGroup.git?path=/Assets/Frontend.UI.GridLayout#v1.0.0"
+"com.frontend.ui-grid-layout": "https://github.com/nosmow/DynamicGridLayoutGroup.git#v1.0.0"
 ```
 
 `#v1.0.0` pins the version to a tag; without it the default branch is used.
 
 **Tarball (`.tgz`)**: *Package Manager → + → Install package from tarball…*
 
-**`.unitypackage`**: *Assets → Import Package → Custom Package…* It is imported into `Assets/Frontend.UI.GridLayout/` together with the demo scene.
+**`.unitypackage`**: *Assets → Import Package → Custom Package…* It imports the package together with the demo scene.
 
 **Demo**: with UPM, *Package Manager → Dynamic Grid Layout Group → Samples → Demo → Import*.
 
@@ -118,4 +118,4 @@ Every script is under 200 lines and each class has a single responsibility.
 
 ## License
 
-[MIT](LICENSE.md).
+[MIT](../LICENSE.md).

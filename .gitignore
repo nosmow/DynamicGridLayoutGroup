@@ -1,22 +1,17 @@
-# Solo se versiona la herramienta (el paquete Assets/Frontend.UI.GridLayout).
-# El resto del proyecto Unity (Library, ProjectSettings, Packages, escenas, Builds...) queda fuera.
+# The repository root is the UPM package. Only the package files are versioned.
 
-# 1. Ignora todo en la raíz...
-/*
+# Local development project (Unity project that references the package with file:../..)
+/DevProject~/
 
-# 2. ...excepto los archivos del repo
-!/.gitignore
-!/.gitattributes
-!/README.md
-!/LICENSE
+# Release builds
+/Builds/
 
-# 3. ...y, dentro de Assets, sólo el paquete (con su .meta)
-!/Assets/
-/Assets/*
-!/Assets/Frontend.UI.GridLayout/
-!/Assets/Frontend.UI.GridLayout.meta
-
-# Basura del sistema operativo / IDE aunque esté dentro del paquete
+# IDE / OS
+.idea/
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
 .DS_Store
 Thumbs.db
-*.swp

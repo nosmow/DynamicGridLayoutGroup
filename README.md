@@ -14,7 +14,7 @@ Requires Unity 2021.3+ and `com.unity.ugui`. MIT licensed.
 **Package Manager → + → Install package from git URL…**
 
 ```
-https://github.com/nosmow/DynamicGridLayoutGroup.git?path=/Assets/Frontend.UI.GridLayout#v1.0.0
+https://github.com/nosmow/DynamicGridLayoutGroup.git#v1.0.0
 ```
 
 `#v1.0.0` pins the version; change the number to update. You can also download the `.unitypackage` or `.tgz` from *Releases*.
@@ -110,8 +110,10 @@ grid.TryGetCellCoordinates(index, out Vector2Int coords); // (column, row) of a 
 ## Package layout
 
 ```
-Assets/Frontend.UI.GridLayout/
+(repository root)
 ├── package.json
+├── README.md · CHANGELOG.md · LICENSE.md
+├── Documentation~/                ← detailed reference of every option
 ├── Runtime/                       ← the component (included in builds)
 │   ├── DynamicGridLayoutGroup.cs  ← component: settings, API and uGUI callbacks
 │   ├── GridLayoutCell.cs          ← optional per-child span component
@@ -139,8 +141,8 @@ The component only holds the settings and talks to uGUI; all the math lives in s
 - `Stretch` has no effect with `Constraint = Flexible`: there is no constrained axis to fill.
 - In `FitContent`, the binary search assumes that more columns take more width. With very irregular spans it may pick one column fewer than the optimum.
 
-Detailed docs for every option: [`Assets/Frontend.UI.GridLayout/README.md`](Assets/Frontend.UI.GridLayout/README.md) · Changes: [`CHANGELOG.md`](Assets/Frontend.UI.GridLayout/CHANGELOG.md)
+Detailed docs for every option: [`Documentation~/DynamicGridLayoutGroup.md`](Documentation~/DynamicGridLayoutGroup.md) · Changes: [`CHANGELOG.md`](CHANGELOG.md)
 
 ## License
 
-[MIT](LICENSE) © nosmow
+[MIT](LICENSE.md) © nosmow
