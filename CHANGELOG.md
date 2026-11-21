@@ -2,7 +2,7 @@
 
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [SemVer](https://semver.org/).
 
-## [1.0.0] - 2026-11-20
+## [1.0.0] - 2026-11-21
 
 ### Added
 
@@ -13,3 +13,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and [Se
 - `Cell Size Mode`: `Preserve`, `Stretch` and `FitContent` (variable sizes).
 - *Convert to Dynamic Grid Layout Group* context menu.
 - `Demo` sample.
+- Full guide in `Documentation~` and README with example screenshots.
