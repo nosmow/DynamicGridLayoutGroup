@@ -12,9 +12,13 @@
     "responsive"
   ],
   "author": {
-    "name": "nosmow"
+    "name": "nosmow",
+    "url": "https://github.com/nosmow"
   },
   "license": "MIT",
+  "documentationUrl": "https://github.com/nosmow/DynamicGridLayoutGroup/blob/main/Documentation~/DynamicGridLayoutGroup.md",
+  "changelogUrl": "https://github.com/nosmow/DynamicGridLayoutGroup/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/nosmow/DynamicGridLayoutGroup/blob/main/LICENSE.md",
   "dependencies": {
     "com.unity.ugui": "1.0.0"
   },
