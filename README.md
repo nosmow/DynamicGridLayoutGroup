@@ -11,6 +11,16 @@ A `GridLayoutGroup` for Unity UI (uGUI) that adapts to its content and to the sc
 - **Adaptive columns/rows**: between a minimum and a maximum, depending on the available space.
 - **Cell sizing**: fixed size, stretched to fill, or each column/row sized to its content.
 
+## Examples
+
+Centered last row, cells spanning several columns or rows, and a grid filled from the upper-right corner:
+
+![Centered last row, column spans, start corner and row spans](Documentation~/Images/layouts.png)
+
+Between 3 and 8 columns depending on the width; cells keep their size (Preserve) or stretch to fill the row (Stretch):
+
+![Adaptive columns (3–8) with Preserve and Stretch cell sizing](Documentation~/Images/adaptive-columns.png)
+
 ## Installation
 
 *Package Manager → + → Install package from git URL…*
