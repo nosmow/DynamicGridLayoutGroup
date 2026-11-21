@@ -1,8 +1,5 @@
 # The repository root is the UPM package. Only the package files are versioned.
 
-# Local development project (Unity project that references the package with file:../..)
-/DevProject~/
-
 # Release builds
 /Builds/
 
